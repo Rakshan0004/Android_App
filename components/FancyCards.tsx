@@ -6,22 +6,6 @@ export default function FancyCards() {
         <View>
             <Text style={styles.headingText}>Trending Locations</Text>
             
-            <View style={[styles.card, styles.cardElevated]}>
-                <Image 
-                    source={{
-                        uri: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800'
-                    }}
-                    style={styles.cardImage}
-                />
-                <View style={styles.cardBody}>
-                    <Text style={styles.cardTitle}>Hawa Mahal</Text>
-                    <Text style={styles.cardLabel}>Pink City, Jaipur</Text>
-                    <Text style={styles.cardDescription}>
-                        The Hawa Mahal is a palace in the city of Jaipur, India. Built from red and pink sandstone, it is one of the most iconic landmarks.
-                    </Text>
-                    <Text style={styles.cardFooter}>12 min away</Text>
-                </View>
-            </View>
 
             <View style={[styles.card, styles.cardElevated]}>
                 <Image 
@@ -53,8 +37,8 @@ const styles = StyleSheet.create({
         marginTop: 8,
     },
     card: {
-        width: 350,
-        height: 360,
+        width: 380,
+        height: 380,
         borderRadius: 16,
         marginVertical: 12,
         marginHorizontal: 16,
