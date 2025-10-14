@@ -1,11 +1,9 @@
 import { View, Text, Linking, StyleSheet, Image, TouchableOpacity } from "react-native";
 
 export default function ActionCard() {
-
     function openWebsite(websiteLink: string){
         Linking.openURL(websiteLink)
     }
-
     return (
         <View>
             <Text style={styles.headingText}>Blog Card</Text>
